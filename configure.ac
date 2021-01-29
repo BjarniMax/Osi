@@ -121,7 +121,7 @@ AC_COIN_CHK_LIBHDR(Gurobi,[OsiGrbLib OsiTest],[-lgurobi -lpthread -lm],[],[],
   [#include "gurobi_c.h"
    #include <stdlib.h>])
 
-AC_COIN_FINALIZE_FLAGS([OsiGlpkLib OskSpxLib OsiCpxLib OsiMskLib OsiXprLib OsiGrbLib OsiTest])
+AC_COIN_FINALIZE_FLAGS([OsiGlpkLib OsiSpxLib OsiCpxLib OsiMskLib OsiXprLib OsiGrbLib OsiTest])
 
 AC_COIN_CHK_HERE([OsiLib],[OsiGlpkLib OsiSpxLib OsiCpxLib OsiMskLib OsiXprLib OsiGrbLib],[osi])
 
